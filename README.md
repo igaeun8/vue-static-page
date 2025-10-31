@@ -1,5 +1,42 @@
-# Vue 3 + TypeScript + Vite
+# 한가위 테마 Vue 프로젝트
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+- GitHub 저장소: https://github.com/igaeun8/vue-static-page
+- GitHub Pages: https://igaeun8.github.io/vue-static-page
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## 사용한 프롬프트 
+```text
+```vue
+// 프롬프트: Vue + TypeScript + Vite로 한가위 테마 페이지
+// Tailwind 없이, 달/토끼/구름/별 배경, 카드 선택 화면, 결과 화면, 공유 버튼 포함
+
+vue + ts + vite로 한가위에 잘 어울리는 웹페이지를 하나 만들고 싶은데, app.vue 파일 깔쌈하게 하나 만들어줄래? Tailwind 없이 구현해줘. 요구사항은 다음과 같아.
+
+1. 첫 화면
+   - 달과 토끼 그림
+   - 타이틀: 예시) 행복한 한가위 
+   - 안내 문구: 예시) 덕담을 골라보세요
+   - 버튼: "덕담 고르기", 클릭 시 카드 선택 화면으로 이동
+
+2. 카드 선택 화면
+   - 2x2 카드
+   - 각 카드 앞면: "덕담 보기"
+   - 클릭 시 선택 → 결과 화면으로 이동
+   - 카드 스타일 이쁘게
+
+3. 결과 화면
+   - 선택한 카드 덕담 표시- 덕담 : 예시) 즐거운 한가위 되세요~
+   - 버튼 2개: "다시 고르기", "공유하기"
+   - 카드 크기 선택 화면 카드와 동일
+
+4. 공통 기능
+   - 공유 기능
+   - 반응형 지원 (작은 화면에서도 카드가 화면을 벗어나지 않도록)
+   - 배경: 달, 토끼, 구름, 별 애니메이션
+
+5. 스타일
+   - CSS만 사용 (Tailwind 금지)
+   - 카드 이쁜 재질, hover 효과, 반응형
+   - 달/토끼/구름/별 반짝 반짝 포함
+
+이외에도 문구와 같이 추석에 어울리는 이모지들을 넣어줘.
+
